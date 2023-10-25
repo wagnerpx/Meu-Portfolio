@@ -33,7 +33,7 @@ body {
 }
 
 .redes-sociais a {
-    display: flex;
+    display: inline-block;
     width: 40px;
     height: 40px;
     font-size: 1.8rem;
