@@ -14,10 +14,10 @@
     border-radius: 5px;
 }
 
-.sobre-mim .informacoes-sobre-mim {
+.sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
-    padding: 0 25px;
-    align-self: center;
+    padding: 0 25px;   
+    align-self: center; 
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
