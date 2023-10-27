@@ -32,25 +32,59 @@ body {
     align-items: center;
 }
 
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 25px;
+    animation: float 5s ease-in-out infinite;
+}
+
 .redes-sociais a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
     font-size: 1.8rem;
-    text-align: center;
     color: var(--cor-branca);
-    margin: 0 4px;
     border-radius: 50%;
-    transition: all 0.3s ease;
+    padding: 10px;
 }
 
-.redes-sociais a i {
-    line-height: 40px;
+.redes-sociais li a {
+    box-shadow: 0 0.1rem 0.7rem var(--cor-branca);
+    transition: 0.6s;
 }
 
-.redes-sociais a:hover {
-    color: var(--cor-primaria);
+.redes-sociais li a:hover {
+    transform: translate(0, -10%);
 }
+
+.redes-sociais li:nth-child(1) a:hover {
+    background-color: #3245ee;
+}
+
+.redes-sociais li:nth-child(2) a:hover {
+    background-color: #00D237;
+}
+
+.redes-sociais li:nth-child(3) a:hover {
+    background-color: #555555;
+}
+
+.redes-sociais li:nth-child(4) a:hover {
+    background: linear-gradient(to top, #fce307d0, #ff17f3, #c814ff);
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(1);
+    }
+  
+    50% {
+      transform: translateY(-15px);
+    }
+  
+    100% {
+      transform: translateY(5px);
+    }
+  }
 
 .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
