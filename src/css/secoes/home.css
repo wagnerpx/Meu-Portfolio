@@ -55,6 +55,27 @@
     margin-bottom: 20px;
 }
 
+.home .texto-home .texto {
+    background: linear-gradient(45deg, #fad400, #00000083, #fad400);
+    background-size: 400% 100%;
+    padding: 1.5rem;
+    font-size: 4rem;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    outline: none;
+}
+
+@keyframes degrade {
+    0% {
+      background-position-x: 0%;
+    }
+  
+    100% {
+      background-position: 400%;
+    }
+  }
+
 .home .texto-home .digitando {
     color: #f8e005;
     font-family: var(--fonte-secundaria);
