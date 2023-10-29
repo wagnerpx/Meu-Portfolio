@@ -68,13 +68,13 @@
 
 @keyframes degrade {
     0% {
-      background-position-x: 0%;
+        background-position-x: 0%;
     }
-  
+
     100% {
-      background-position: 400%;
+        background-position: 400%;
     }
-  }
+}
 
 .home .texto-home .digitando {
     color: #f8e005;
@@ -93,10 +93,10 @@
 
 @keyframes blink {
     from {
-      opacity: 1;
+        opacity: 1;
     }
-  
+
     to {
-      opacity: 0;
+        opacity: 0;
     }
-  }
+}
