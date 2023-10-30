@@ -1,3 +1,10 @@
+.sobre-mim {
+    background: url(/src/images/folha-de-papael.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
 .sobre-mim .imagem-sobre-mim {
     max-width: 40%;
     padding: 0 15px;
@@ -28,6 +35,10 @@
     font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 20px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 @media(max-width: 1280px) {

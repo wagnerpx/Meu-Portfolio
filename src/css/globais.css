@@ -111,6 +111,10 @@ body {
     text-transform: uppercase;
 }
 
+.section-title span {
+    color: rgb(255, 251, 1);
+}
+
 .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;

@@ -4,6 +4,13 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: 0 auto;
     grid-gap: 20px;       
+
+    /* max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    gap: 2.5rem;
+    padding: 5rem;
+    margin: 0 auto; */
 }
 
 @media(max-width: 1280px) { 
