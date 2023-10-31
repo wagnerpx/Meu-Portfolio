@@ -32,6 +32,7 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p {
+    font-family: var(--fonte-sobre-mim);
     font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 20px;
