@@ -1,8 +1,8 @@
 .home {
     background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.747)),
-        url(/src/images/fundo.jpg);
+        url(/src/images/cafe-preto.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: top left;
     position: relative;
 }
 

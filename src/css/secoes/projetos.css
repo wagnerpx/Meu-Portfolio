@@ -1,16 +1,138 @@
 /* PROJETOS */
-.projetos .container-projetos {
+.portfolio-content {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+    gap: 2.5rem;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+.portfolio-content img {
+    max-width: 100%;
+}
+
+.projeto {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.projeto img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background-color: #ffffff05;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(25px);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.7s;
+}
+
+.layer h5 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #e94444;
+}
+
+.layer p {
+    color: rgb(255, 254, 254);
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.layer i {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: rgba(3, 3, 3, 0.795);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.projeto:hover img {
+    transform: scale(1.1);
+}
+
+.projeto:hover .layer {
+    height: 100%;
+}
+
+@media(max-width: 1280px) {
+    .projetos .container-projetos {
+        padding: 0 var(--mobile-padding);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .projetos .container-projetos {
     display: grid;        
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: 0 auto;
     grid-gap: 20px;       
-
-    /* max-width: 1200px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    gap: 2.5rem;
-    padding: 5rem;
-    margin: 0 auto; */
 }
 
 @media(max-width: 1280px) { 
@@ -69,4 +191,4 @@
     padding-bottom: 10px;
     padding-top: 10px;
     bottom: 0;
-}
+} */
